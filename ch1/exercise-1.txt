@@ -87,4 +87,12 @@ Exercise - 1.4
 =>  if "b>0" then (+ a b)
     else (- a b)
 
+Exercise - 1.5
+--------------------------------------
+
+Using applicative-order evaluation the answer is 0, it checks the arguments before being passed to function.
+
+Using normal-order evaluation , it evaluates the function and then the arguments.
+answer is 0.
+
 
