@@ -1,0 +1,7 @@
+
+(define (square x) x * x)
+(define (sum of square x y z) (+ (square x) (squre y) (square z)))
+(define (min x y) (if (< x y) x y))
+(define (min x y z) (if (< (min x y) z) (min x y) z))
+(define (sum of square of two large x y z) (- (sum of square x y z) (square (min x y z))))
+

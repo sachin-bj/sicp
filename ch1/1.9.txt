@@ -1,0 +1,21 @@
+
+(define (+ a b)
+  (if (= a 0) b
+        (inc (+ (dec a) b))))
+
+=> (define (+ 4 5)
+        if (= 4 0) 5
+                (inc (+ 3 5)))
+answer is 9
+
+(define (+ a b)
+  (if (= a 0) b
+        (+ (dec a) (inc b))))
+
+=> (define (+ 4 5)
+        (if (4 0) 5
+                (+ 3 6)))
+answer is 9
+
+
+
